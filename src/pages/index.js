@@ -1,8 +1,11 @@
-import React from 'react'
-import Home from './trang-chu'
-const Index = ()=>{
-    return (
-        <Home/>
-    )
+import React, { Component } from "react"
+import Home from './trang-chu';
+
+class Index extends Component {
+
+	render() {
+		return <Home />
+	}
 }
-export default Index
+
+export default Index;
